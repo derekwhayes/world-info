@@ -1,0 +1,91 @@
+:root {
+    --cadet-gray: #9cafb7;
+    --sage: #adb993;
+    --citron: #d0d38f;
+    --sunset: #f6ca83;
+}
+
+:host {
+    height: 100%;
+    display: block;
+    
+}
+
+main {
+    font-family: Helvetica, Arial, sans-serif;
+    
+    height: 100%;
+    display: block;
+}
+
+.title {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background: #f6ca83d0;
+    height: 10vh;
+    font-size: 32px;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0;
+    
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    height: 100%
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.country-details {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    margin-top: 10%; 
+    border-radius: 2%;
+    text-align: center;
+    background-color: #9cafb757;
+    height: 50%;
+    width: 80%;
+}
+
+.info {
+    padding: 10%;
+}
+
+.info h3{
+    font-size: 32px;
+}
+
+table {
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+td {
+    margin-top: 15%;
+}
+
+tr td:first-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+tr td:last-child {
+    text-align: right;
+}
+
+path:hover {
+    fill: #f6ca83d0;
+    stroke: black;
+}
